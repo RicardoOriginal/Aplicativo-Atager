@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mAdicionar"
+        android:icon="@drawable/fab_add"
+        android:title="@string/m_adicionar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mTurnos"
+        android:title="@string/titulo_turnos" />
+    <item
+        android:id="@+id/mFrentes"
+        android:title="@string/titulo_frentes" />
+    <item
+        android:id="@+id/mDivisoes"
+        android:title="@string/titulo_divisoes" />
+    <item
+        android:id="@+id/mUnidades"
+        android:title="@string/titulo_unidades" />
+    <item
+        android:id="@+id/mColaboradores"
+        android:title="@string/titulo_colaboradores" />
+    <item
+        android:id="@+id/mMaquinas"
+        android:title="@string/titulo_maquinas" />
+</menu>

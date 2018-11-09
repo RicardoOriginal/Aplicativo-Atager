@@ -1,0 +1,116 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:contextClickable="true"
+    card_view:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/margem_para_cartoes">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_frente"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginEnd="@dimen/espaco_entre_textos"/>
+
+            <TextView
+                android:id="@+id/tvNomeFrente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/margem_para_cartoes">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_divisao"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginEnd="@dimen/espaco_entre_textos"/>
+
+            <TextView
+                android:id="@+id/tvNomeDivisao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/margem_para_cartoes">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_encarregado"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginEnd="@dimen/espaco_entre_textos"/>
+
+            <TextView
+                android:id="@+id/tvNomeEncarregado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvEditar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:text="@string/btn_editar"
+                android:textAlignment="viewEnd"
+                android:textColor="#0000FF"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/tvExcluir"
+                android:layout_marginEnd="63dp"
+                android:focusable="true" />
+
+            <TextView
+                android:id="@+id/tvExcluir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:text="@string/btn_excluir"
+                android:textAlignment="viewEnd"
+                android:textColor="#FF0000"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="19dp"
+                android:focusable="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="aplicativo_nome">Atager</string>
+
+    <string name="titulo_colaboradores">Colaboradores</string>
+    <string name="titulo_turnos">Turnos</string>
+    <string name="titulo_frentes">Frentes</string>
+    <string name="titulo_divisoes">Divisões</string>
+    <string name="titulo_unidades">Unidades</string>
+    <string name="titulo_empresas">Empresas</string>
+
+    <string name="edt_matricula">Matricula:</string>
+    <string name="edt_senha">Senha</string>
+    <string name="btn_entrar">Entrar</string>
+
+    <string name="m_salvar">Salvar</string>
+    <string name="m_adicionar">Adicionar</string>
+
+    <string name="txt_frente">Frente:</string>
+    <string name="txt_data">Data:</string>
+    <string name="txt_turno">Turno:</string>
+    <string name="txt_lider">Lider:</string>
+    <string name="txt_tema_dds">Tema DDS:</string>
+    <string name="txt_producao">Produção(t):</string>
+    <string name="txt_chuva">Chuva(mm):</string>
+    <string name="txt_observacao">Observações:</string>
+    <string name="txt_matricula">Matricula:</string>
+    <string name="txt_nome">Nome:</string>
+    <string name="txt_nomeNomeColaborador">Nome:</string>
+    <string name="txt_senha">Senha:</string>
+    <string name="txt_status">Status:</string>
+    <string name="txt_cargo">Cargo:</string>
+    <string name="btn_selecionarData">Selecione a data:</string>
+    <string name="txt_divisao">Divisão:</string>
+    <string name="txt_encarregado">Encarregado:</string>
+    <string name="txt_administrador">Administrador:</string>
+    <string name="txt_supervisor">Supervisor:</string>
+    <string name="txt_unidade">Unidade:</string>
+    <string name="txt_empresa">Empresa:</string>
+    <string name="txt_gerente">Gerente:</string>
+    <string name="txt_nomeDaFrente">Nome da Frente:</string>
+    <string name="txt_nomeDaDivisao">Nome da Divisão:</string>
+    <string name="txt_nomeDaUnidade">Nome da Unidade:</string>
+    <string name="txt_nomeDaEmpresa">Nome da Empresa:</string>
+    <string name="btn_editar">EDITAR</string>
+    <string name="btn_excluir">EXCLUIR</string>
+    <string name="ativo">Ativo:</string>
+    <string name="atualizacao">Atualização</string>
+    <string name="inativo">Inativo</string>
+    <string name="txt_frota">Frota:</string>
+    <string name="txt_modelo">Modelo:</string>
+    <string name="txt_tipo">Tipo:</string>
+    <string name="txt_horas_trabalhadas">Horas Trabalhas:</string>
+    <string name="titulo_maquinas">Maquinas</string>
+
+
+    <string-array name="Turnos">
+        <item>1º</item>
+        <item>2º</item>
+        <item>3º</item>
+    </string-array>
+</resources>

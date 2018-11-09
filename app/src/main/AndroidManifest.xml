@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ricardo.com.atager">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icone"
+        android:label="@string/aplicativo_nome"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".views.ColaboradorLista"
+            android:label="@string/titulo_colaboradores"/>
+
+        <activity android:name=".views.ColaboradorAdicionar"
+            android:label="@string/titulo_colaboradores"/>
+
+        <activity android:name=".views.ColaboradorEditar"
+            android:label="@string/titulo_colaboradores"/>
+
+        <activity android:name=".views.TurnoLista"
+            android:label="@string/titulo_turnos"/>
+
+        <activity android:name=".views.TurnoAdicionar"
+            android:label="@string/titulo_turnos"/>
+
+        <activity android:name=".views.TurnoEditar"
+            android:label="@string/titulo_turnos"/>
+
+        <activity android:name=".views.FrenteLista"
+            android:label="@string/titulo_frentes"/>
+
+        <activity android:name=".views.FrenteEditar"
+            android:label="@string/titulo_frentes"/>
+
+        <activity android:name=".views.FrenteAdicionar"
+            android:label="@string/titulo_frentes"/>
+
+        <activity android:name=".views.DivisaoLista"
+            android:label="@string/titulo_divisoes"/>
+
+        <activity android:name=".views.DivisaoAdicionar"
+            android:label="@string/titulo_divisoes"/>
+
+        <activity android:name=".views.DivisaoEditar"
+            android:label="@string/titulo_divisoes"/>
+
+        <activity android:name=".views.UnidadeLista"
+            android:label="@string/titulo_unidades"/>
+
+        <activity android:name=".views.UnidadeAdicionar"
+            android:label="@string/titulo_unidades"/>
+
+        <activity android:name=".views.UnidadeEditar"
+            android:label="@string/titulo_unidades"/>
+
+        <activity android:name=".views.EmpresaLista"
+            android:label="@string/titulo_empresas"/>
+
+        <activity android:name=".views.EmpresaAdicionar"
+            android:label="@string/titulo_empresas"/>
+
+        <activity android:name=".views.EmpresaEditar"
+            android:label="@string/titulo_empresas"/>
+
+        <activity android:name=".views.MaquinaLista"
+            android:label="@string/titulo_maquinas"/>
+
+        <activity android:name=".views.MaquinaAdicionar"
+            android:label="@string/titulo_maquinas"/>
+
+        <activity android:name=".views.MaquinaEditar"
+            android:label="@string/titulo_maquinas"/>
+
+    </application>
+
+</manifest>
